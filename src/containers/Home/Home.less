@@ -1,0 +1,41 @@
+#header{
+  border-bottom:1px solid #ccc;
+}
+.list-group-item p{
+  overflow : hidden;
+  text-overflow : ellipsis;
+  white-space : nowrap;
+  width: 70%;
+}
+#carousel01,
+#carousel02{
+  cursor: e-resize;
+}
+#carousel01 .jumbotron{
+  background: rgba(	92, 184, 92,0.75);
+  color:#ffffff;
+}
+#carousel02 .jumbotron{
+  background: rgba(0, 14, 0, 0.75);
+  color:#ffffff;
+}
+.example-appear {
+  opacity: 0.01;
+}
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .4s ease-in;
+}
+.slick-dots li{
+  width: 45px;
+}
+.slick-dots li button{
+  width: 40px;
+}
+.slick-dots li button::before{
+   content: "" ;
+   background: #000;
+   width: 40px;
+   height: 3px;
+   border-radius: 3px;
+}
