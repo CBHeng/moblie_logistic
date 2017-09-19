@@ -1,5 +1,6 @@
 # NKFUST LOGISTICS Moblie 
-改善原運籌官網，手持手機體驗不佳的情況，透過nodejs爬蟲自動抓取最新消息，儲存至Firebase database，使用者瀏覽透過ReactJS開發，快速建立網站元件，並整理更優秀的排版。
+目的 : 改善原運籌官網，手持手機體驗不佳的情況。<br />
+    透過nodejs爬蟲自動抓取最新消息，儲存至Firebase database，前端透過ReactJS開發，快速建立網站元件，並提供最佳的網頁排版。
 >   ReactJS + Firebase + Nodejs
 ## 前端介紹 : 使用ReactJS快速開發前端網頁
 ReactJs 外部模組
